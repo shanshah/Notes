@@ -1,6 +1,5 @@
 import React from 'react';
-import { Router, Route, browserHistory } from 'react-router';
-// import App from './App';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Loadable from 'react-loadable';
 
@@ -16,7 +15,7 @@ const App = Loadable({
 class Routes extends React.Component {
   render() {
     return (
-      <Router history={browserHistory}>
+      <Router>
         <Route path="/" component={App} />
       </Router>
     );

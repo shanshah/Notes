@@ -20,7 +20,7 @@
 .note-list-container {
     flex: 3;
     border-right: 1px solid #dddddd;
-    overflowY: auto
+    overflow-y: auto
 }
 
 .add-note-button-container {
